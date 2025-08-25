@@ -1,0 +1,34 @@
+[
+    {
+        "activity": "Configurar estilos globales en globals.css creando clases .tarjeta-global, .titulo-global y .contenido-global con borde, padding, border-radius, sombra y estados hover.",
+        "solution": "src/app/globals.css"
+    },
+    {
+        "activity": "Crear componente TarjetaGlobal que reciba props titulo, contenido y color, utilizando las clases CSS globales definidas en globals.css.",
+        "solution": "app/components/TarjetaGlobal.js"
+    },
+    {
+        "activity": "Crear componente TarjetaModulo con CSS Modules que reciba props nombre, descripcion y categoria, junto con su archivo de estilos TarjetaModulo.module.css.",
+        "solution": "app/components/TarjetaModulo.js"
+    },
+    {
+        "activity": "Implementar variantes de tarjetas en CSS Modules con clases tarjetaPrimaria, tarjetaSecundaria y tarjetaExito, cada una con esquema de colores diferente.",
+        "solution": "app/components/TarjetaModulo.module.css"
+    },
+    {
+        "activity": "Crear componente TarjetaDinamica con estilos en línea que reciba props titulo, contenido, colorFondo, colorTexto y ancho, aplicando estilos dinámicos.",
+        "solution": "app/components/TarjetaDinamica.js"
+    },
+    {
+        "activity": "Añadir estilos condicionales en línea al componente TarjetaDinamica con prop activo (boolean) que cambie estilos usando operador ternario.",
+        "solution": "app/components/TarjetaDinamica.js"
+    },
+    {
+        "activity": "Crear componente TarjetaTailwind usando solo clases de Tailwind CSS que reciba props titulo, descripcion, imagen y etiqueta con diseño tipo card moderno.",
+        "solution": "app/components/TarjetaTailwind.js"
+    },
+    {
+        "activity": "Crear página de demostración en page.js que muestre los 4 tipos de tarjetas creadas con títulos descriptivos para cada método de estilizado.",
+        "solution": "app/page.js"
+    }
+]
