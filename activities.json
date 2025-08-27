@@ -29,6 +29,6 @@
     },
     {
         "activity": "Crear página de demostración en page.js que muestre los 4 tipos de tarjetas creadas con títulos descriptivos para cada método de estilizado.",
-        "solution": "src/app/page.js"
+        "solution": "src/app/page.tsx"
     }
 ]
