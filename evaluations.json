@@ -1,0 +1,73 @@
+{
+  "narilin/act_react_s2": {
+    "repositoryUrl": "narilin/act_react_s2",
+    "studentName": "Narilyn Bustamante",
+    "activities": [
+      {
+        "activityDescription": "Configurar estilos globales en globals.css creando clases .tarjeta-global, .titulo-global y .contenido-global con borde, padding, border-radius, sombra y estados hover.",
+        "solutionFile": "src/app/globals.css",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente trabajo! La solución es completa y aplica correctamente los estilos solicitados con buenas prácticas como la transición hover. Bien hecho."
+      },
+      {
+        "activityDescription": "Crear componente TarjetaGlobal que reciba props titulo, contenido y color, utilizando las clases CSS globales definidas en globals.css.",
+        "solutionFile": "src/app/components/TarjetaGlobal.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La actividad se resuelve correctamente. Podrías considerar pasar el color como una clase CSS en lugar de un estilo en línea para mayor flexibilidad y separación de responsabilidades."
+      },
+      {
+        "activityDescription": "Crear componente TarjetaModulo con CSS Modules que reciba props nombre, descripcion y categoria, junto con su archivo de estilos TarjetaModulo.module.css.",
+        "solutionFile": "src/app/components/TarjetaModulo.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. El componente TarjetaModulo cumple con los requisitos, utilizando CSS Modules correctamente y manejando la prop 'variant' de forma condicional. Código limpio y bien estructurado."
+      },
+      {
+        "activityDescription": "Implementar variantes de tarjetas en CSS Modules con clases tarjetaPrimaria, tarjetaSecundaria y tarjetaExito, cada una con esquema de colores diferente.",
+        "solutionFile": "src/app/components/TarjetaModulo.module.css",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución! Implementación correcta de las variantes de tarjetas y el código es claro y bien estructurado. Cumple con las buenas prácticas de CSS Modules."
+      },
+      {
+        "activityDescription": "Crear componente TarjetaDinamica con estilos en línea que reciba props titulo, contenido, colorFondo, colorTexto y ancho, aplicando estilos dinámicos.",
+        "solutionFile": "src/app/components/TarjetaDinamica.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. El componente recibe y aplica correctamente los props para los estilos dinámicos, incluyendo la lógica condicional para el borde. Bien hecho!"
+      },
+      {
+        "activityDescription": "Añadir estilos condicionales en línea al componente TarjetaDinamica con prop activo (boolean) que cambie estilos usando operador ternario.",
+        "solutionFile": "src/app/components/TarjetaDinamica.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "¡Excelente solución! El uso del operador ternario para aplicar estilos condicionales es correcto y eficiente. El código es legible y bien estructurado."
+      },
+      {
+        "activityDescription": "Crear componente TarjetaTailwind usando solo clases de Tailwind CSS que reciba props titulo, descripcion, imagen y etiqueta con diseño tipo card moderno.",
+        "solutionFile": "src/app/components/TarjetaTailwind.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. El componente TarjetaTailwind cumple con todos los requisitos, utilizando adecuadamente las clases de Tailwind CSS para un diseño moderno y funcional. Bien implementado el manejo de props y la lógica condicional."
+      },
+      {
+        "activityDescription": "Crear página de demostración en page.js que muestre los 4 tipos de tarjetas creadas con títulos descriptivos para cada método de estilizado.",
+        "solutionFile": "src/app/page.tsx",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      }
+    ],
+    "overallScore": 4.25,
+    "totalActivities": 8,
+    "completedActivities": 7,
+    "summary": "Excelente trabajo. Completó 7/8 actividades (88%) con una calificación promedio de 4.3/5. Demuestra buen dominio de los conceptos.",
+    "recommendations": [
+      "Completar los archivos faltantes: src/app/page.tsx"
+    ],
+    "evaluatedAt": "2025-09-02T00:35:57.267Z",
+    "evaluatedBy": "Sistema de Evaluación"
+  }
+}
